@@ -1,11 +1,17 @@
-import Person from "./Person";
+// import { useContext } from "react";
+// import { UserContext } from "./UserContextProvider";
+// import ChaiCard from "./ChaiCard";
+import Counter from "./Counter";
 
 function App() {
+  // const {} = useContext(UserContext);
+
   return (
     <div>
-      <Person name={"Div"} age={23} isMarried={false} />
-      <hr />
-      <Person name={"Steve"} age={33} />
+      {/* <ChaiCard name="Div" price={23} isSpecial={true} /> */}
+      {/* <hr />
+      <Person name={"Steve"} age={33} isMarried={true} /> */}
+      <Counter />
     </div>
   );
 }
