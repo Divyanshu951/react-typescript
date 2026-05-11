@@ -1,10 +1,13 @@
+import Person from "./Person";
+
 function App() {
-  const x = 10;
-  console.log(x);
-
-  function doSomething() {}
-
-  return <h1>Hello</h1>;
+  return (
+    <div>
+      <Person name={"Div"} age={23} isMarried={false} />
+      <hr />
+      <Person name={"Steve"} age={33} />
+    </div>
+  );
 }
 
 export default App;
